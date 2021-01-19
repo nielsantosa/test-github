@@ -1,0 +1,28 @@
+If Construct in One Line => Ternary Operator
+Construct :
+<condition> ? <do if true> : <do if false>
+
+Sampling from an array with a certain sample size
+<array>.sample(<sample size>)
+
+Ruby is a truthy language :
+Everything is true except <nil> and <false>
+
+Flow -> Up to Bottom, Left to right
+
+In loop -> Choice
+State the nil instead of false.
+In programming, make sure the variable is semantically "make sense".
+Think broader!
+
+CRUD Framework -> useful for the IT development
+UPDATE an existing data
+CREATE new data
+READ an eisting data
+DELETE existing data
+
+Append Array
+<array>.push(<data>)
+<array> << <data>
+Prepend Array
+<array>.unshift(<data>)

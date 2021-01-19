@@ -1,0 +1,25 @@
+Side Effect -> Changing something outside the iterator
+=> Which is to be more careful!
+=> Try to be avoided
+
+How to avoid this side effect :
+=> Create a method
+=> Use <array>.map method
+
+
+
+def musicians_with_instruments(musicians)
+	musicians.map.with_index { |m, index| "#{m} - #{INSTRUMENTS[index]} "}
+end
+
+
+each -> only iterate, but doesn't return anything
+map -> will give a new copy of new array. -> FOR SIDE EFFECT USE THIS
+
+musicians.map { |musician| musician.upcase } 
+
+Yield inside a method to run the block inside do
+
+() : bracket / parentheses
+[] : square bracket
+{} : curly bracket

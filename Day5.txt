@@ -1,0 +1,57 @@
+Flashcards
+1. #reduce
+
+Hash # -> Python's Dictionary
+General consensus :
+
+students_hash = {
+	"key1" => value,
+	"key2" => value,
+	"key3" => value
+}
+
+stt shortcuts (Need to learn)
+Shortcut for selecting duplicate name
+Shortcut for selecting multiple value
+Shortcut to change a non-string to string -> Highlight the text, click the "
+
+
+Another way to write hash (symbol is more performant as identifier:
+
+students_has = {
+	:key1 => value1,
+	:key2 => value2,
+	:key3 => value3
+}
+
+:<symbol> is called symbol.
+Different between symbol and string as a key
+string -> the object id will change every time you change the value
+symbol -> the object id will not change (will be always there)
+
+Latest development from ruby (to follow the JSON Format) :
+
+student_hash3 = {
+	key1: value1,
+	key2: value2,
+	key3: value3
+}
+
+how to call the latest 2 values :
+student_hash3[:key1]
+
+default values :
+if the argument is a string , try to use default as ""
+etc etc
+
+csv/array
+
+rspec
+describe "#<method_name>" do
+	it "test message" do
+		# setup
+		# exercise
+		# verify
+	end
+end
+
