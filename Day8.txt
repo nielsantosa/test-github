@@ -1,0 +1,15 @@
+Writing Down Classes
+
+class <class_name>
+	attr_reader : <assign at first or by default, to be called>
+	attr_writer : <to be overwritten only>
+	attr_accessor : <can be called and overwritten>
+
+	def initialize(model, color)
+		@model = model
+		@color = color
+	end
+
+	
+
+end
